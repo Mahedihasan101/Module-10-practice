@@ -120,9 +120,44 @@ header nav li a {
   font-size: 0.98rem;
   font-weight: bold;
 }
+
+/* featured-products section styles */
+.featured-products{
+    max-width: 1110px;
+    margin: 0 auto;
+    align-items: center;
+    display: flex;
+    justify-content:space-between;
+    
+}
+.small-container{
+    width: fit-content;
+    margin-top: 123px;
+}
+.featured-products button{
+    border-radius:0;
+}
+.products-title{
+    font-size: 38px;
+    font-weight: bold;
+    color: #0A0826;
+    margin-top: 25px;
+}
+.products-description{
+    width: 510px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #6C6C6C;
+}
+
+
+
+
+
 @media screen and (max-width: 576px) {
   header nav,
-  .hero-banner{
+  .hero-banner,
+  .featured-products{
     flex-direction: column;
   }
   .collection-cards {
@@ -132,7 +167,7 @@ header nav li a {
     margin-top: 50px;
   }
 
-  .hero-banner {
+  .hero-banner, .featured-products{
     flex-direction: column-reverse;
   }
   .hero-banner {
@@ -163,5 +198,23 @@ header nav li a {
   .banner-icon img {
     width: 50px;
     
+  }
+  .products-title{
+    font-size: 1.50rem;
+    font-weight: bold;
+    width: 310px;
+    margin: 0 auto;
+  }
+  .products-description{
+    font-size: 1rem;
+    font-weight: bold;
+    width: 325px;
+  }
+  .featured-products{
+    text-align: center;
+  }
+  .featured-products img{
+    width: 300px;
+    margin-top: -100px;
   }
 }
