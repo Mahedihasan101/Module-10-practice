@@ -1,0 +1,125 @@
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.poppins-font {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+/* header navbar styles */
+header nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 90px 120px;
+}
+header nav ul{
+    display: flex;
+    gap: 34px;
+}
+header nav h3{
+    font-size: 1.50rem;
+    font-weight: bold;
+    color: #3A3A3A;
+}
+header nav li {
+    list-style: none;
+}
+header nav li a{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-decoration: none;
+}
+/* banner styles */
+.hero-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 120px;
+    margin-right: 165px;
+    background-image: url(../images/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: right  top -70px;
+   
+
+}
+.banner-left{
+    width: 582px;
+}
+.left-title{
+    font-size: 3.25rem;
+    font-weight: bold;
+    color: #3A3A3A;
+    margin-bottom: 16px;
+    margin-top: 16px;
+}
+.left-description{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #3A3A3A;
+}
+.btn{
+    font-size: 1rem;
+    font-weight: bold;
+    color:white;
+    background-color: #E02C6D;
+    padding: 10px 25px;
+    border-radius: 41px;
+    margin-bottom: 170px;
+    margin-top: 16px;
+}
+.banner-right img{
+    
+    width: 440px;
+    margin-top: -50px;
+    margin-bottom: 100px;
+}
+.banner-icon{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1110px;
+    margin: 0 auto;
+    
+}
+/* collection card section styles */
+.collection-cards{
+    width: 1047px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+   margin: 0 auto;
+
+}
+.collection h3{
+    font-size: 1.8rem;
+    font-weight: 600;
+    color: #3A3A3A;
+    text-align: center;
+}
+.card{
+    width: 329px;
+    padding: 17px;
+    box-shadow: 0 0 40px 0 rgb(222, 222, 231);
+    border-radius: 5px;
+}
+.card h4{
+    font-size: 1.80rem;
+    font-weight: 500;
+    color: rgba(24, 25, 31, 1);
+     margin-top: 16px;
+    margin-bottom: 6px;
+}
+.card h5{
+    font-size: 1.50rem;
+    font-weight: 400;
+    color: rgba(0, 0, 0, 0.87);
+   
+}
+.card p {
+    color: rgba(120, 120, 133, 1);
+    font-size: 0.98rem;
+    font-weight: bold;
+}
